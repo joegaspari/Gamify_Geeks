@@ -1,0 +1,445 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.custom-font {
+  font-family: 'Indie Flower', cursive;
+}
+
+:root {
+  --font-family-poppins: 'Poppins', sans-serif;
+
+  --color-black-1: #141414;
+  --color-black-2: #787878;
+  --color-white-1: #ffffff;
+  --color-white-3: #c8c8c8;
+  --color-off-white-1: #f6f6f6;
+  --color-off-white-2: #fcfbfc;
+  --color-blue-1: #002145;
+  --color-blue-2: #0d4f7a;
+  --color-blue-3: #0094ff;
+  --color-blue-4: #e1fbfb;
+  --color-green-1: #06c47f;
+  --color-green-2: #0d706a;
+  --color-red-1: #de1e1e;
+  --color-bg-blue-1: #1a8ce0;
+  --color-bg-blue-2: #cde7fe;
+  --color-bg-blue-3: #e9f5fe;
+  --color-bg-red-1: #de1d1d;
+  --color-bg-red-2: #fecdcd;
+  --color-bg-red-3: #fee9e9;
+  --color-bg-green-1: #04bd00;
+  --color-bg-green-2: #d1fecd;
+  --color-bg-green-3: #ebfee9;
+  --color-beige-1: #fdf7f3;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-poppins);
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+
+  box-sizing: border-box;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+.landingFont {
+  font-family: 'Indie Flower', cursive;
+}
+
+@layer utilities {
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-blue-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue-2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@layer components {
+  .tooltip-card {
+    @apply flex flex-col bg-white1 text-black1 max-w-[290px] gap-[20px] opacity-0 m-0 p-base rounded-[20px];
+
+    /*TODO: Change to tailwind */
+    animation-name: fadeInDown;
+    animation-timing-function: ease;
+    animation-duration: 0.3s;
+
+    -webkit-animation-fill-mode: forwards;
+    /* Chrome 16+, Safari 4+ */
+    -moz-animation-fill-mode: forwards;
+    /* FF 5+ */
+    -o-animation-fill-mode: forwards;
+    /* Not implemented yet */
+    -ms-animation-fill-mode: forwards;
+    /* IE 10+ */
+    animation-fill-mode: forwards;
+    /* When the spec is finished */
+  }
+
+  .notifications {
+    @apply flex flex-col bg-white1 text-black1 place-items-start max-w-[500px] gap-[20px] m-0 p-base rounded-[20px];
+  }
+
+  .hasInfo {
+    @apply relative overflow-hidden after: content-none after:z-10 after:block after:absolute after:top-0 after:left-0 after:right-0 after:h-ful;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate(0, -50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes loopOpacity {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.hasHelp {
+  position: relative;
+  overflow: hidden;
+  z-index: 50;
+  animation: fade 2s infinite;
+}
+
+.hasHelp::after {
+  animation: loopOpacity 2s infinite;
+
+  -webkit-animation-fill-mode: forwards;
+  /* Chrome 16+, Safari 4+ */
+  -moz-animation-fill-mode: forwards;
+  /* FF 5+ */
+  -o-animation-fill-mode: forwards;
+  /* Not implemented yet */
+  -ms-animation-fill-mode: forwards;
+  /* IE 10+ */
+  animation-fill-mode: forwards;
+
+  content: ' ';
+  z-index: 30;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 20, 20, 0.25);
+}
+
+.hasHelp:hover::after {
+  background: transparent;
+  animation: none;
+}
+
+.tooltip::after {
+  background: transparent;
+}
+
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay::after,
+.helpOverlay::after {
+  animation-name: fadeIn;
+  animation-timing-function: ease;
+  animation-duration: 0.3s;
+
+  -webkit-animation-fill-mode: forwards;
+  /* Chrome 16+, Safari 4+ */
+  -moz-animation-fill-mode: forwards;
+  /* FF 5+ */
+  -o-animation-fill-mode: forwards;
+  /* Not implemented yet */
+  -ms-animation-fill-mode: forwards;
+  /* IE 10+ */
+  animation-fill-mode: forwards;
+
+  pointer-events: none;
+  content: ' ';
+  z-index: 20;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 20, 20, 0.25);
+}
+
+.disabled::after {
+  pointer-events: none;
+  content: ' ';
+  z-index: 20;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 20, 20, 0.08);
+}
+
+.bgOverlay {
+  z-index: 21;
+  background: rgb(193, 193, 193);
+  transition-duration: 0.3s;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.accordion__item {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.accordion__heading {
+  font-size: 20px;
+}
+
+.accordion__button {
+  background-color: #ffffff;
+  color: #141414;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.accordion__button[aria-expanded='true'] {
+  background-color: #fafafa;
+}
+
+.accordion__button:before {
+  /* display: inline-block;
+  content: '';
+  height: 10px;
+  width: 10px;
+  margin-right: 12px;
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(-45deg); */
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+  transform: rotate(45deg);
+}
+
+[hidden] {
+  display: none;
+}
+
+.accordion__panel {
+  animation: fadein 0.35s ease-in;
+}
+
+.mask {
+  width: 120px;
+  height: 120px;
+  mask-image: url('../public/image/Python_Logo.png');
+  /* Path to your image */
+  mask-repeat: no-repeat;
+  mask-size: cover;
+}
+
+.milestone-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.badgeHexes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.Toastify__toast-body {
+  padding: 0;
+  border-radius: 10px;
+}
+
+.Toastify__toast-container {
+  width: fit-content !important;
+}
+
+.copyContainer:hover #copyBtn {
+  transform: scale(1.05);
+}
+
+.lockedCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Grey overlay with 60% opacity */
+  backdrop-filter: blur(3px);
+  /* Apply the blur effect to the background */
+  z-index: 50;
+}
+
+.lockedDisplay {
+  z-index: 60;
+}
+
+.aboveOverlay {
+  background-color: var(--color-bg-blue-3);
+  z-index: 60;
+}
+
+.navmenuround {
+  margin: 10px 10rem;
+  border-radius: 45px;
+}
+
+.inlineicon svg {
+  display: inline;
+}
+
+/* This is the light green square background */
+div.lightgreen {
+  padding: 20px;
+  background-color: #d1fecd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.lightblue {
+  padding: 20px;
+  background-color: #cde7fe;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This is the pink square with the black question mark in a circle */
+div.lightpink {
+  padding: 20px;
+  background-color: #fecdcd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radiusicon {
+  padding: 10px;
+  border-radius: 50%;
+  border: solid #000000;
+}
+
+.line {
+  width: calc(100% - (30px * 3) - (3px * 6));
+  height: 3px;
+  border-top: dashed #000000;
+}
+
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+@keyframes slide-from-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-from-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.left,
+.right {
+  opacity: 0;
+}
+
+.slide-in-left {
+  animation: slide-from-left 0.5s forwards;
+  opacity: 1;
+}
+
+.slide-in-right {
+  animation: slide-from-right 0.5s forwards;
+  opacity: 1;
+}

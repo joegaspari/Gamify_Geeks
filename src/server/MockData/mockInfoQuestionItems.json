@@ -1,0 +1,108 @@
+[
+    {
+      "id": "1",
+      "title": "What is this website all about?",
+      "content": "Our coding website is a platform that provides resources, and interactive coding exercises to help you learn and improve your coding skills in various programming languages."
+    },
+    {
+      "id": "2",
+      "title": "Is it suitable for beginners?",
+      "content": "Yes, absolutely! Our website caters to learners of all levels, including beginners. We have beginner-friendly tutorials and exercises to help you get started on your coding journey."
+    },
+    {
+      "id": "3",
+      "title": "Which programming languages are covered?",
+      "content": "We offer tutorials and exercises for a wide range of programming languages, including but not limited to Python, JavaScript, Java, C++, HTML/CSS."
+    },
+    {
+      "id": "4",
+      "title": "Do I need to create an account to access the content?",
+      "content": "Yes! Creating an account is recommended to track your progress, save your projects, and access additional features."
+    },
+    {
+      "id": "5",
+      "title": "How can I get started with coding on this website?",
+      "content": "To get started, you can browse our modules and pick a programming language you're interested in. We recommend starting with the beginner's track if you're new to coding."
+    },
+    {
+      "id": "6",
+      "title": "Are there any coding challenges or exercises available?",
+      "content": "Yes, we offer a wide range of coding exercises and challenges. These help reinforce your skills and apply the concepts you've learned in real coding scenarios."
+    },
+    {
+      "id": "7",
+      "title": "Is there recognition upon completing courses?",
+      "content": "Yes, we offer badges of completion for courses or learning tracks. There is also a live leaderboard where you can check your position."
+    },
+    {
+      "id": "8",
+      "title": "How do I create an account?",
+      "content": "To create an account, click on the 'Sign Up' or 'Register' button on the homepage, and follow the steps to provide your email address, username, and password."
+    },
+    {
+      "id": "9",
+      "title": "I forgot my password. How can I reset it?",
+      "content": "If you forget your password, click on the 'Forgot Password' link on the Account settings page which can be accessed by clicking on your name (bottom left). You'll receive instructions on your registered email to reset your password."
+    },
+    {
+      "id": "10",
+      "title": "Can I change my username and email associated with the account?",
+      "content": "Yes, you can change your username and email within your account settings which can be accessed by clicking on your name (bottom left) after logging in."
+    },
+    {
+      "id": "11",
+      "title": "I'm having trouble signing up with my email. What should I do?",
+      "content": "If you encounter any issues during the sign-up process, please contact our support team for assistance."
+    },
+    {
+      "id": "12",
+      "title": "Can I change my password after signing up?",
+      "content": "Yes, you can change your password within your account settings at any time."
+    },
+    {
+      "id": "13",
+      "title": "Can participants interact with the live leaderboard?",
+      "content": "Participants can see which position they are at in general compared to the rest of their peers."
+    },
+    {
+      "id": "14",
+      "title": "Is the live leaderboard publicly accessible or restricted to participants only?",
+      "content": "The live leaderboard is accessible to the general public, but an account is needed to participate or compete."
+    },
+    {
+      "id": "15",
+      "title": "How can instructors create accounts and join the coding platform?",
+      "content": "Instructors can create an account the same way as a normal user, but they need to switch the toggle to the instructor role and provide the institution code."
+    },
+    {
+      "id": "16",
+      "title": "Can instructors customize the modules they create for their students?",
+      "content": "Instructors have flexibility in tailoring coding exercises and challenges to meet their students' specific needs and skill levels."
+    },
+    {
+      "id": "17",
+      "title": "Is there a feature for instructors to track students' progress and performance on the platform?",
+      "content": "Yes! Instructors can monitor a students performance on the Students tab, including the status of their modules and the number of hours spent. They can also collectively track class progress on the modules."
+    },
+    {
+      "id": "18",
+      "title": "How can instructors add students to their classes or groups on the platform?",
+      "content": "Instructors generate a code by clicking on 'Add students,' and then students enter it on their side of the system to be added."
+    },
+    {
+      "id": "19",
+      "title": "How are the coding modules organized on the platform?",
+      "content": "The modules can be filtered by language, and after selecting the topic, you can choose the difficulty level."
+    },
+    {
+      "id": "20",
+      "title": "How can a student add a course?",
+      "content": "Students can add a course by clicking on the arrow next to their currently selected course and entering the class code given by the instructor."
+    },
+    {
+      "id": "21",
+      "title": "Does the platform offer any code review or feedback mechanisms to help users improve their coding skills?",
+      "content": "After each question, our program gives the user personalized AI feedback based on the answer they submit."
+    }
+]
+

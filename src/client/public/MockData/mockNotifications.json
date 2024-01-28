@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "badgeTitle": "Python Easy Badge",
+        "badgeId": 1,
+        "difficulty": 1,
+        "type": "Milestone",
+        "date": "06-29-2023"
+    },
+    {
+        "id": 2,
+        "badgeTitle": "Python Hard Badge",
+        "badgeId": 1,
+        "difficulty": 3,
+        "type": "Milestone",
+        "date": "06-28-2023"
+    },
+    {
+        "id": 3,
+        "badgeTitle": "Python Medium Badge",
+        "badgeId": 1,
+        "difficulty": 2,
+        "type": "Milestone",
+        "date": "06-27-2023"
+    },
+    {
+        "id": 4,
+        "badgeTitle": "Python Easy Badge",
+        "badgeId": 1,
+        "difficulty": 1,
+        "type": "Milestone",
+        "date": "06-26-2023"
+    },
+    {
+        "id": 5,
+        "badgeTitle": "Python Medium Badge",
+        "badgeId": 1,
+        "difficulty": 2,
+        "type": "Milestone",
+        "date": "06-25-2023"
+    }
+]

@@ -1,0 +1,31 @@
+Package Name,Version,Description,Link
+@tanstack/react-query,^4.29.12,React Query library for managing asynchronous data,https://github.com/tannerlinsley/react-query
+@testing-library/jest-dom,^5.16.5,Custom jest matchers for DOM testing,https://github.com/testing-library/jest-dom
+@testing-library/react,^13.4.0,React testing utilities,https://github.com/testing-library/react-testing-library
+@testing-library/user-event,^13.5.0,Synthetic event simulation library for testing,https://github.com/testing-library/user-event
+@uiw/codemirror-extensions-langs,^4.21.4,CodeMirror language extensions by UIW,https://github.com/uiwjs/codemirror-extensions-langs
+@uiw/codemirror-themes-all,^4.21.4,All themes for CodeMirror by UIW,https://github.com/uiwjs/codemirror-themes-all
+@uiw/react-codemirror,^4.21.4,React wrapper for CodeMirror by UIW,https://github.com/uiwjs/react-codemirror
+antd,^5.7.0,A popular UI library for React applications,https://github.com/ant-design/ant-design
+chart.js,^4.3.0,JavaScript charting library,https://github.com/chartjs/Chart.js
+react,^18.2.0,React library for building user interfaces,https://github.com/facebook/react
+react-accessible-accordion,^5.0.0,Accessible accordion component for React,https://github.com/springload/react-accessible-accordion
+react-calendar,^4.3.0,Calendar component for React applications,https://github.com/wojtekmaj/react-calendar
+react-chartjs-2,^5.2.0,React wrapper for Chart.js,https://github.com/reactchartjs/react-chartjs-2
+react-dom,^18.2.0,React package for working with the DOM,https://github.com/facebook/react
+react-icons,^4.9.0,SVG icons for popular icon packs in React,https://github.com/react-icons/react-icons
+react-input-mask,^3.0.0-alpha.2,Input masking for React forms,https://github.com/sanniassin/react-input-mask
+react-loader-spinner,^5.3.4,Loader spinner component for React,https://github.com/mhnpd/react-loader-spinner
+react-markdown,^8.0.7,Markdown rendering for React,https://github.com/remarkjs/react-markdown
+react-movable,^3.0.4,Drag-and-drop and swipe functionality for React components,https://github.com/tajo/react-movable
+react-router-dom,^6.11.2,Declarative routing for React applications,https://github.com/remix-run/react-router
+react-scripts,5.0.1,Scripts and configuration for React development,https://github.com/facebook/create-react-app
+react-toastify,^9.1.3,Toast notifications for React,https://github.com/fkhadra/react-toastify
+react-tooltip,^5.15.0,Tooltip library for React applications,https://github.com/wwayne/react-tooltip
+react-transition-group,^4.4.5,Animation utility for managing transitions in React,https://github.com/reactjs/react-transition-group
+selenium,^2.20.0,Web testing framework,https://www.selenium.dev/
+selenium-webdriver,^4.10.0,WebDriver library for controlling web browsers,https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/
+styled-components,^6.0.1,Styling library for React components using tagged template literals,https://styled-components.com/
+tailwind,^4.0.0,Utility-first CSS framework,https://tailwindcss.com/
+tailwindcss-animation-delay,^1.0.7,Tailwind CSS plugin for adding animation delay utilities,https://github.com/pingyhq/tailwindcss-animation-delay
+web-vitals,^2.1.4,Library for measuring web vitals,https://github.com/GoogleChrome/web-vitals

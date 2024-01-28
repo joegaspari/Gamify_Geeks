@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": "Sort By",
+        "options": [
+            {
+                "id": 1,
+                "title": "Newest First"
+            },
+            {
+                "id": 2,
+                "title": "Alphabetical order"
+            },
+            {
+                "id": 3,
+                "title":  "Most Popular"
+            },
+            {
+                "id": 4,
+                "title": "Oldest First"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Status",
+        "options": [
+            {
+                "id": 1,
+                "title": "Attempted"
+            },
+            {
+                "id": 2,
+                "title": "Unattempted"
+            },
+            {
+                "id": 3,
+                "title": "Solved"
+            }
+        ]
+        
+    }
+]

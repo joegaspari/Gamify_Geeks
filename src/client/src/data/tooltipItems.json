@@ -1,0 +1,67 @@
+{
+    "overview": [
+        {
+            "id": 0,
+            "title": "Overview",
+            "content": "Get a summary of your progress and performance on the platform at a glance." 
+        },
+        {
+            "id": 1,
+            "title": "Solve Rate",
+            "content": "Check your problem-solving efficiency with the solve rate, indicating the percentage of coding challenges completed successfully."
+        }
+    ],
+    "milestone": [
+        {
+            "id": 0,
+            "title": "Milestone",
+            "content": "Lorem ipsum dolor sit amet consectetur. Libero nunc sed enim pellentesque elementum aliquam pharetra quam sollicitudin. Lacus massa sollicitudin pretium praesent."
+        },
+        {
+            "id": 1,
+            "title": "Progress",
+            "content": "Lorem ipsum dolor sit amet consectetur. Libero nunc sed enim pellentesque elementum aliquam pharetra quam sollicitudin. Lacus massa sollicitudin pretium praesent."
+        }
+    ],
+    "sidebar": [
+        {
+            "id": 0,
+            "title": "Sidebar",
+            "content": "Access quick links and navigation options from the sidebar for easy and efficient browsing."
+        },
+        {
+            "id": 1,
+            "title": "Navigation",
+            "content": "Use the navigation menu to explore different sections and features of the platform."
+        }
+    ],
+    "calendar": [
+        {
+            "id": 0,
+            "title": "Calendar",
+            "content": "Keep a streak by coding everyday on the platform."
+        }
+    ],
+    "accountCard": [
+        {
+            "id": 0,
+            "title": "Account Card",
+            "content": "View your current level and streak number and edit your account details from the account card, including username, email, and profile settings."
+        }
+    ],
+    "badges": [
+        {
+            "id": 0,
+            "title": "Badges",
+            "content": "Earn badges upon completing courses and challenges, showcasing your accomplishments and skills."
+        }
+    ],
+    "topMasteries": [
+        {
+            "id": 0,
+            "title": "Top Masteries",
+            "content": "Discover the coding areas you excel in the most, based on your performance and completion rates."
+
+        }
+    ]
+}

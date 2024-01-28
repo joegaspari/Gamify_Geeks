@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "title":"Python Easy Badge",
+        "progress": 20,
+        "difficulty": 1
+    },
+    {
+        "id":2,
+        "title":"Python Hard Badge",
+        "progress": 15,
+        "difficulty": 3
+    },
+    {
+        "id":3,
+        "title":"Python Hard Badge",
+        "progress": 15,
+        "difficulty": 3
+    },
+    {
+        "id":4,
+        "title":"Python Hard Badge",
+        "progress": 15,
+        "difficulty": 3
+    },
+    {
+        "id":5,
+        "title":"Python Hard Badge",
+        "progress": 0,
+        "difficulty": 1
+    },
+    {
+        "id":6,
+        "title":"Python Medium Badge",
+        "progress": 12,
+        "difficulty": 2
+    }
+]

@@ -1,0 +1,11 @@
+.copied:after {
+    content: "Copied!";
+    /* Add other styling rules as needed */
+    color: #04BD00;
+    font-size: 12px;
+    position: absolute;
+    top: 100%; /* Position it below the button */
+    left: 0; /* Adjust or remove as needed */
+    /* Add some space between the button and the text */
+    margin-top: 2px;
+}

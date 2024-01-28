@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="128" viewBox="0 0 150 128">
+  <g id="Group_1" data-name="Group 1" transform="translate(1314.094 656.41)">
+    <text id="G" transform="translate(-1283.094 -583.41)" fill="none" stroke="#0ace90" stroke-width="1" font-size="65" font-family="ClarendonBT-Black, Clarendon" font-weight="800"><tspan x="0" y="0">G</tspan></text>
+    <text id="g-2" data-name="g" transform="translate(-1236.094 -572.41)" fill="#0ace90" font-size="65" font-family="ClarendonBT-Black, Clarendon" font-weight="800" opacity="0.838"><tspan x="0" y="0">g</tspan></text>
+    <text id="_" data-name="}" transform="translate(-1199.875 -628.41)" fill="#fee9e9" font-size="55" font-family="ClarendonBT-Black, Clarendon" font-weight="800" opacity="0.77"><tspan x="0" y="53">}</tspan></text>
+    <text id="_2" data-name="}" transform="translate(-1278.704 -556.41) rotate(180)" fill="#fee9e9" font-size="55" font-family="ClarendonBT-Black, Clarendon" font-weight="800" opacity="0.77"><tspan x="0" y="53">}</tspan></text>
+    <text id="NEWBIE" transform="translate(-1260.094 -557.41)" fill="rgba(10,206,144,0.31)" font-size="12" font-family="Space Grotesk Light" opacity="0.758"><tspan x="0" y="12">NEWBIE</tspan></text>
+    <g id="Polygon_3" data-name="Polygon 3" transform="translate(-1314.094 -656.41)" fill="none">
+      <path d="M112.5,0,150,64l-37.5,64h-75L0,64,37.5,0Z" stroke="none"/>
+      <path d="M 40.36540985107422 5 L 5.795089721679688 64 L 40.36540985107422 123 L 109.6345901489258 123 L 144.2049102783203 64 L 109.6345901489258 5 L 40.36540985107422 5 M 37.5 0 L 112.5 0 L 150 64 L 112.5 128 L 37.5 128 L 0 64 L 37.5 0 Z" stroke="none" fill="#0ace90"/>
+    </g>
+  </g>
+</svg>

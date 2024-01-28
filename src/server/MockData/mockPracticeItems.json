@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "title": "Database Management",
+        "level": 7,
+        "numBug": 2,
+        "languages": [
+            {"id": 2, "name":"Javascript"},
+            {"id": 1, "name":"Python"},
+            {"id": 5, "name":"C++"},
+            {"id": 4, "name":"C#"}
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Introduction of Network",
+        "level": 10,
+        "numBug": 3,
+        "languages": [
+            {"id": 2, "name":"Javascript"},
+            {"id": 1, "name":"Python"}
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Operating System",
+        "level": 6,
+        "numBug": 3,
+        "languages": [
+            {"id":1, "name":"Python"},
+            {"id":5, "name":"C++"},
+            {"id":4, "name":"C#"}   
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Parallel Computing",
+        "level": 4,
+        "numBug": 0,
+        "languages": [
+            {"id":1, "name":"Python"},
+            {"id":5, "name":"C++"},
+            {"id":4, "name":"C#"}   
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Web Programmingt",
+        "level": 3,
+        "numBug": 10,
+        "languages": [
+            {"id":2, "name":"Javascript"},
+            {"id":6, "name":"PHP"}
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Artificial Intelligence",
+        "level": 2,
+        "numBug": 5,
+        "languages": [
+            {"id":3, "name":"Java"},
+            {"id":1, "name":"Python"},
+            {"id":5, "name":"C++"},
+            {"id":4, "name":"C#"}
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Machine Architecture",
+        "level": 9,
+        "numBug": 1,
+        "languages": [
+            {"id":7, "name":"MIPS"}
+        ]
+    }
+]

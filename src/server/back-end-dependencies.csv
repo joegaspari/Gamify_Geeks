@@ -1,0 +1,24 @@
+Package Name,Version,Description,Link
+bcrypt,^5.1.0,Library for hashing passwords,https://github.com/kelektiv/node.bcrypt.js
+cors,^2.8.5,Middleware for enabling CORS in Express applications,https://github.com/expressjs/cors
+dotenv,^16.1.3,Loads environment variables from a .env file,https://github.com/motdotla/dotenv
+express,^4.18.2,Web application framework for Node.js,https://github.com/expressjs/express
+express-async-errors,^3.1.1,Express error handling for async functions,https://github.com/davidbanham/express-async-errors
+express-validator,^7.0.1,Express middleware for input validation,https://github.com/express-validator/express-validator
+helmet,^7.0.0,Security middleware for Express applications,https://github.com/helmetjs/helmet
+jest,^29.5.0,JavaScript testing framework,https://github.com/facebook/jest
+jsonwebtoken,^9.0.0,JSON Web Token library for Node.js,https://github.com/auth0/node-jsonwebtoken
+morgan,^1.10.0,HTTP request logger middleware for Node.js,https://github.com/expressjs/morgan
+mysql,^2.18.1,MySQL database driver for Node.js,https://github.com/mysqljs/mysql
+mysql2,^3.3.5,Improved MySQL driver for Node.js,https://github.com/mysqljs/mysql
+nodemailer,^6.9.4,Library for sending emails from Node.js applications,https://github.com/nodemailer/nodemailer
+openai,^3.3.0,OpenAI API client for Node.js,https://github.com/openai/openai-node
+sequelize,^6.32.0,Promisified ORM for SQL databases,https://github.com/sequelize/sequelize
+supertest,^6.3.3,HTTP testing library for Node.js,https://github.com/visionmedia/supertest
+@babel/core,^7.22.8,Babel compiler core,https://github.com/babel/babel
+@babel/plugin-transform-runtime,^7.22.7,Babel plugin for using the runtime instead of inlined helpers,https://github.com/babel/babel/tree/main/packages/babel-plugin-transform-runtime
+@babel/preset-env,^7.22.7,Babel preset for transforming JavaScript,https://github.com/babel/babel
+eslint,^8.43.0,JavaScript linter,https://github.com/eslint/eslint
+eslint-config-airbnb-base,^15.0.0,ESLint configuration following Airbnb's style guide,https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base
+eslint-plugin-import,^2.27.5,ESLint plugin for linting import statements,https://github.com/benmosher/eslint-plugin-import
+nodemon,^2.0.22,Utility for automatically restarting Node.js applications,https://github.com/remy/nodemon

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "day": "Sunday",
+        "solved": 47,
+        "attempted": 89
+    },
+    {
+        "id": 2,
+        "day": "Monday",
+        "solved": 31,
+        "attempted": 59
+    },
+    {
+        "id": 3,
+        "day": "Tuesday",
+        "solved": 56,
+        "attempted": 100
+    },
+    {
+        "id": 4,
+        "day": "Wednesday",
+        "solved": 36,
+        "attempted": 64
+    },
+    {
+        "id": 5,
+        "day": "Thursday",
+        "solved": 40,
+        "attempted": 73
+    },
+    {
+        "id": 6,
+        "day": "Friday",
+        "solved": 51,
+        "attempted": 90
+    },
+    {
+        "id": 7,
+        "day": "Saturday",
+        "solved": 61,
+        "attempted": 97
+    }
+]

@@ -1,0 +1,22 @@
+.customSelect {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('/public/svg/Vector\ \(13\).svg');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    
+}
+
+select:focus > option:checked { 
+    background: #EBF7FF !important;
+    color: #141414;
+    font-weight: 500;
+}
+
+select option:checked,
+select option:hover {
+    box-shadow: 0 0 10px 100px #EBF7FF inset;
+    color: #141414;
+    font-weight: 500;
+}
